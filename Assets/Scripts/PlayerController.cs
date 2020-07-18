@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log("tilemapController found: " + tilemapController.name);
 
-        _walkSpeed = 1.0f;
+        _walkSpeed = 2.0f;
         _playerInputActions.Player.WaywardAction.performed += 
             _ => WaywardAction();
 
@@ -144,7 +144,7 @@ public class PlayerController : MonoBehaviour
 
         //We want units of 1 ie: (1,1) or (-1,1) or (1,-1)
         _waywardVelocity = Vector2.zero;
-        _waywardVelocity.x = _waywardPoint.x - _rb.position.x == 0 ? 0 : _waywardPoint.x - _rb.position.x > 0 ? 1.9f : -1.9f;
+        _waywardVelocity.x = _waywardPoint.x - _rb.position.x == 0 ? 0 : _waywardPoint.x - _rb.position.x > 0 ? 2f : -2f;
         _waywardVelocity.y = _waywardPoint.y - _rb.position.y == 0 ? 0 : _waywardPoint.y - _rb.position.y > 0 ? 1 : -1;
         _waywardVelocity.Normalize();
         _waywardVelocity = _waywardVelocity * _walkSpeed;
@@ -204,7 +204,9 @@ public class PlayerController : MonoBehaviour
             //if so, change the velocity to be a straight line
             } else if (wx == px) {
                 _waywardVelocity.x = 0;  //Stop moving in the X axis
+                _waywardVelocity.y = (_waywardVelocity.y == 0 ? 0 : _waywardVelocity.y > 0 ? 1 : -1) * _walkSpeed;
                 _rb.transform.position = new Vector2(_waywardPoint.x, _rb.position.y);
+                Debug.Log("X done:" + _waywardVelocity.y);
             } else if (wy == py)
             {
                 _waywardVelocity.y = 0; //Stop moving in the Y axis
