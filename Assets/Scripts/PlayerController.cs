@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private TilemapController tilemapController;
 
+    [SerializeField]
+    private ParticleSystem _wayPointParticles;
+
     public bool _idle = true;
     public Animator _animator;
 
@@ -141,6 +144,13 @@ public class PlayerController : MonoBehaviour
 
         _waywardPoint.x = midTileTarget.x;
         _waywardPoint.y = midTileTarget.y;
+
+        _wayPointParticles.transform.position = new Vector3(_waywardPoint.x, _waywardPoint.y, 300);
+
+        if (_wayPointParticles.isPlaying)
+            _wayPointParticles.Stop();
+
+        _wayPointParticles.Play();
 
         //We want units of 1 ie: (1,1) or (-1,1) or (1,-1)
         _waywardVelocity = Vector2.zero;
