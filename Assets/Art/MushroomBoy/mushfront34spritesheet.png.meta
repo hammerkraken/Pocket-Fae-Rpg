@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: edfad9ec0ef5a5a46b5a0bb861818998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3470201538551954070
+    second: mushfront34spritesheet_0
+  - first:
+      213: 2805463127277452379
+    second: mushfront34spritesheet_1
+  - first:
+      213: -667546949409955965
+    second: mushfront34spritesheet_2
+  - first:
+      213: 6431375230918798399
+    second: mushfront34spritesheet_3
+  - first:
+      213: -65465895336138534
+    second: mushfront34spritesheet_4
+  - first:
+      213: 5219945325507705455
+    second: mushfront34spritesheet_5
+  - first:
+      213: -5086984130993027754
+    second: mushfront34spritesheet_6
+  - first:
+      213: 7907819533576819584
+    second: mushfront34spritesheet_7
+  - first:
+      213: 660449353584997479
+    second: mushfront34spritesheet_8
+  - first:
+      213: 3609446464662920559
+    second: mushfront34spritesheet_9
+  - first:
+      213: 8214584744625337658
+    second: mushfront34spritesheet_10
+  - first:
+      213: -3032925720103841160
+    second: mushfront34spritesheet_11
+  - first:
+      213: 2840312911837749060
+    second: mushfront34spritesheet_12
+  - first:
+      213: 7245693618392590331
+    second: mushfront34spritesheet_13
+  - first:
+      213: -2789322715974338212
+    second: mushfront34spritesheet_14
+  - first:
+      213: 7176940833164646706
+    second: mushfront34spritesheet_15
+  - first:
+      213: -4333834178534672029
+    second: mushfront34spritesheet_16
+  - first:
+      213: -4153769907557570364
+    second: mushfront34spritesheet_17
+  - first:
+      213: 2036991505354288253
+    second: mushfront34spritesheet_18
+  - first:
+      213: 6546027056929682935
+    second: mushfront34spritesheet_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mushfront34spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65c89b261e57dfc0800000000000000
+      internalID: -3470201538551954070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c34dba9d10fe620800000000000000
+      internalID: 2805463127277452379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f168916956cb6f0800000000000000
+      internalID: -667546949409955965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c292892b5d04950800000000000000
+      internalID: 6431375230918798399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad826937d1b671ff0800000000000000
+      internalID: -65465895336138534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af8d9fd98f07840800000000000000
+      internalID: 5219945325507705455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6558c1682e66769b0800000000000000
+      internalID: -5086984130993027754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ddb6e7f73ebd60800000000000000
+      internalID: 7907819533576819584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764f19810336a2900800000000000000
+      internalID: 660449353584997479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd50a9f64571230800000000000000
+      internalID: 3609446464662920559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a357cb07d41100270800000000000000
+      internalID: 8214584744625337658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872901f6022e8e5d0800000000000000
+      internalID: -3032925720103841160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f5b017b81da6720800000000000000
+      internalID: 2840312911837749060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ea93e4ffdd8460800000000000000
+      internalID: 7245693618392590331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59fb6ea4c55a49d0800000000000000
+      internalID: -2789322715974338212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23956c6a9ad999360800000000000000
+      internalID: 7176940833164646706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697ef8b6c02bd3c0800000000000000
+      internalID: -4333834178534672029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e255d648da56c0800000000000000
+      internalID: -4153769907557570364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c612f4bf8d44c10800000000000000
+      internalID: 2036991505354288253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushfront34spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5b36a0de828da50800000000000000
+      internalID: 6546027056929682935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class PlayerController : MonoBehaviour
 {
@@ -30,15 +32,25 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 _waywardVelocity = new Vector2(0, 0);
 
-    private const string DIRECTION_IDLE = "Idle";
-    private const string DIRECTION_NORTH = "North";
-    private const string DIRECTION_NORTH_EAST = "NorthEast";
-    private const string DIRECTION_EAST = "East";
-    private const string DIRECTION_SOUTH_EAST = "SouthEast";
-    private const string DIRECTION_SOUTH = "South";
-    private const string DIRECTION_SOUTH_WEST = "SouthWest";
-    private const string DIRECTION_WEST = "West";
-    private const string DIRECTION_NORTH_WEST = "NorthWest";
+    private const string DIRECTION_IDLE_SW = "Player_IDLE_SW";
+    private const string DIRECTION_IDLE_SE = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_NE = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_NW = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_E = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_W = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_N = "Player_IDLE_SE";
+    private const string DIRECTION_IDLE_S = "Player_IDLE_SE";
+
+    private const string DIRECTION_NORTH = "Player_N";
+    private const string DIRECTION_NORTH_EAST = "Player_NE";
+    private const string DIRECTION_EAST = "Player_E";
+    private const string DIRECTION_SOUTH_EAST = "Player_SE";
+    private const string DIRECTION_SOUTH = "Player_S";
+    private const string DIRECTION_SOUTH_WEST = "Player_SW";
+    private const string DIRECTION_WEST = "Player_W";
+    private const string DIRECTION_NORTH_WEST = "Player_NW";
+
+    private string play_idle_direction = DIRECTION_IDLE_SW;
 
     private List<Vector2[]> debugPoints = new List<Vector2[]>();
 
@@ -58,6 +70,7 @@ public class PlayerController : MonoBehaviour
      */
     private void OnEnable()
     {
+        EnhancedTouchSupport.Enable();
         _playerInputActions.Enable();
     }
 
@@ -67,6 +80,7 @@ public class PlayerController : MonoBehaviour
     private void OnDisable()
     {
         _playerInputActions.Disable();
+        EnhancedTouchSupport.Disable();
     }
 
     /***************************************************************
@@ -78,8 +92,14 @@ public class PlayerController : MonoBehaviour
         Debug.Log("tilemapController found: " + tilemapController.name);
 
         _walkSpeed = 2.0f;
+
+        //Register the PlayerInputAction to a method
         _playerInputActions.Player.WaywardAction.performed += 
             _ => WaywardAction();
+
+        _playerInputActions.UI.Zoom.performed += ctx => Pinch(ctx);
+
+        _playerInputActions.UI.Pinch.performed += ctx => PinchTouch(ctx);
 
         //set to be the same as the player's initial position.
         _waywardPoint = tilemapController.GetTileMidPoint(_rb.position);
@@ -112,9 +132,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         MoveViaWayward();
-
-
-
     }
 
     /***************************************************************
@@ -208,19 +225,18 @@ public class PlayerController : MonoBehaviour
                 _rb.transform.position = _waywardPoint; //update position to be exact
                 Debug.Log("STOP: " + _rb.position.ToString());
                 _waywardMovement = false;
-                return;
 
             //Are we in the direct line of the pointer location?
             //if so, change the velocity to be a straight line
             } else if (wx == px) {
                 _waywardVelocity.x = 0;  //Stop moving in the X axis
                 _waywardVelocity.y = (_waywardVelocity.y == 0 ? 0 : _waywardVelocity.y > 0 ? 1 : -1) * _walkSpeed;
-                _rb.transform.position = new Vector2(_waywardPoint.x, _rb.position.y);
-                Debug.Log("X done:" + _waywardVelocity.y);
+                _rb.transform.position = new Vector2(_waywardPoint.x, _rb.position.y); ////reposition the sprite
+
             } else if (wy == py)
             {
                 _waywardVelocity.y = 0; //Stop moving in the Y axis
-                _rb.position = new Vector2(_rb.position.x, _waywardPoint.y);
+                _rb.transform.position = new Vector2(_rb.position.x, _waywardPoint.y); //reposition the sprite
             }
 
             Vector2[] pair = new Vector2[2];
@@ -235,7 +251,35 @@ public class PlayerController : MonoBehaviour
         }
 
         // Animation
-        //AnimatePlayer();
+        AnimatePlayer();
+
+    }
+
+    private void PinchTouch(InputAction.CallbackContext ctx)
+    {
+        Debug.Log(UnityEngine.InputSystem.EnhancedTouch.Touch.activeTouches.Count);
+    }
+
+    private void Pinch(InputAction.CallbackContext ctx)
+    {
+        Debug.Log("called");
+        Vector2 value = ctx.ReadValue<Vector2>();
+        Debug.Log(value);
+
+        Camera cam = Camera.main;
+
+        float size = cam.orthographicSize;
+
+        if (value.y > 0 && size > 1)
+        {
+            cam.orthographicSize -= .1f;
+            Debug.Log("UP");
+
+        } else if (value.y < 0 && size < 3)
+        {
+            cam.orthographicSize += .1f;
+            Debug.Log("DOWN");
+        }
 
     }
 
@@ -246,57 +290,83 @@ public class PlayerController : MonoBehaviour
     {
 
         //Idle
-        if (_rb.velocity.x == 0 && _rb.velocity.y == 0)
+        if (_rb.velocity.x == 0 && _rb.velocity.y == 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(play_idle_direction))
         {
-            _animator.Play(PlayerController.DIRECTION_IDLE);
+            Debug.Log("Play IDLE: " + play_idle_direction);
+            _animator.Play(play_idle_direction);
         }
 
         // Up (North)
-        else if (_rb.velocity.x == 0 && _rb.velocity.y > 0)
+        else if (_rb.velocity.x == 0 && _rb.velocity.y > 0 
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_NORTH))
         {
+            Debug.Log("Play N");
             _animator.Play(PlayerController.DIRECTION_NORTH);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SE;
         }
 
         // Down (South)
-        else if (_rb.velocity.x == 0 && _rb.velocity.y < 0)
+        else if (_rb.velocity.x == 0 && _rb.velocity.y < 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_SOUTH))
         {
+            Debug.Log("Play S");
             _animator.Play(PlayerController.DIRECTION_SOUTH);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SE;
+        }
+
+        // Left (West)
+        else if (_rb.velocity.x < 0 && _rb.velocity.y == 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_WEST))
+        {
+            Debug.Log("Play W: " + _rb.velocity.ToString());
+            _animator.Play(PlayerController.DIRECTION_WEST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SW;
         }
 
         // Right (East)
-        else if (_rb.velocity.x < 0 && _rb.velocity.y == 0)
+        else if (_rb.velocity.x > 0 && _rb.velocity.y == 0 && (_waywardPoint.x + 1) >_rb.position.x
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_EAST))
         {
+            Debug.Log("Play E: " + _rb.velocity.ToString());
             _animator.Play(PlayerController.DIRECTION_EAST);
-        }
-
-        // Right (West)
-        else if (_rb.velocity.x > 0 && _rb.velocity.y == 0)
-        {
-            _animator.Play(PlayerController.DIRECTION_WEST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SE;
         }
 
         // Up to the Right (North East)
-        else if (_rb.velocity.x > 0 && _rb.velocity.y > 0)
+        else if (_rb.velocity.x > 0 && _rb.velocity.y > 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_NORTH_EAST))
         {
+            Debug.Log("Play NE");
             _animator.Play(PlayerController.DIRECTION_NORTH_EAST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SE;
         }
 
         // Up to the Left (North West)
-        else if (_rb.velocity.x < 0 && _rb.velocity.y > 0)
+        else if (_rb.velocity.x < 0 && _rb.velocity.y > 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_NORTH_WEST))
         {
+            Debug.Log("Play NW");
             _animator.Play(PlayerController.DIRECTION_NORTH_WEST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SW;
         }
 
         // Down to the Right (South East)
-        else if (_rb.velocity.x > 0 && _rb.velocity.y < 0)
+        else if (_rb.velocity.x > 0 && _rb.velocity.y < 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_SOUTH_EAST))
         {
+            Debug.Log("Play SE");
             _animator.Play(PlayerController.DIRECTION_SOUTH_EAST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SE;
         }
 
         // Down to the Left (South West)
-        else if (_rb.velocity.x < 0 && _rb.velocity.y < 0)
+        else if (_rb.velocity.x < 0 && _rb.velocity.y < 0
+            && !_animator.GetCurrentAnimatorStateInfo(0).IsName(PlayerController.DIRECTION_SOUTH_WEST))
         {
+            Debug.Log("Play SW");
             _animator.Play(PlayerController.DIRECTION_SOUTH_WEST);
+            play_idle_direction = PlayerController.DIRECTION_IDLE_SW;
         }
 
     }
