@@ -21,13 +21,12 @@ public class TilemapController : MonoBehaviour
 
         if (tilemap.HasTile(tileCoords))
         {
-            //tilemap.SetTileFlags(tileCoords, TileFlags.None);
-            //Debug.Log("LOCK STATE: " + tilemap.GetTileFlags(tileCoords).ToString());
-            //tilemap.SetColor(tileCoords, Color.blue);
+
+            //tiles are 1 unit wide, and .5 units tall
 
             //Center of the tile
             ret.x = tilemap.CellToWorld(tileCoords).x;//
-            ret.y = tilemap.CellToWorld(tileCoords).y + 0.3f;// + tilemap.size.y/3;
+            ret.y = tilemap.CellToWorld(tileCoords).y + 0.2f;// + tilemap.size.y/3;
         }
 
         Debug.Log("pointer: " + worldPointerClickPosition.ToString() + " tileCoords: " + tileCoords.ToString() + " return: " + ret.ToString());

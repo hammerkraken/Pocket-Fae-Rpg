@@ -1,130 +1,55 @@
 fileFormatVersion: 2
-guid: 3f992e3cf33f9234e9369fd7cc34e3af
+guid: 5dc53fc3d3c7e9241ba6064be223687f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1576294047489774016
-    second: mushback34spritesheet_0
+      213: -1937062316634487068
+    second: mushbackidlespritesheet_0
   - first:
-      213: 6748881442782553641
-    second: mushback34spritesheet_1
+      213: -3714971904883333910
+    second: mushbackidlespritesheet_1
   - first:
-      213: 2249105039997261435
-    second: mushback34spritesheet_2
+      213: 5858644073489879587
+    second: mushbackidlespritesheet_2
   - first:
-      213: -5433044705868956523
-    second: mushback34spritesheet_3
+      213: 8526892095565624848
+    second: mushbackidlespritesheet_3
   - first:
-      213: 4001116765594472898
-    second: mushback34spritesheet_4
+      213: 2011382584176250264
+    second: mushbackidlespritesheet_4
   - first:
-      213: -3094205055451975724
-    second: mushback34spritesheet_5
+      213: -418638672003317113
+    second: mushbackidlespritesheet_5
   - first:
-      213: 5933511011497199614
-    second: mushback34spritesheet_6
+      213: -5398877285287480467
+    second: mushbackidlespritesheet_6
   - first:
-      213: 3660805679358410519
-    second: mushback34spritesheet_7
+      213: 5861558380429027352
+    second: mushbackidlespritesheet_7
   - first:
-      213: -1161633200995675274
-    second: mushback34spritesheet_8
+      213: 2109964479304254263
+    second: mushbackidlespritesheet_8
   - first:
-      213: -9000763338511457044
-    second: mushback34spritesheet_9
+      213: 5059192891171317365
+    second: mushbackidlespritesheet_9
   - first:
-      213: 907406018078169980
-    second: mushback34spritesheet_10
+      213: 7682529121387912062
+    second: mushbackidlespritesheet_10
   - first:
-      213: 6485457117274186405
-    second: mushback34spritesheet_11
+      213: 7334378828551954787
+    second: mushbackidlespritesheet_11
   - first:
-      213: 4100845746586003011
-    second: mushback34spritesheet_12
+      213: -5726059459102688421
+    second: mushbackidlespritesheet_12
   - first:
-      213: -2015171451133866873
-    second: mushback34spritesheet_13
+      213: -6951311222561914034
+    second: mushbackidlespritesheet_13
   - first:
-      213: -8203032638758678402
-    second: mushback34spritesheet_14
+      213: 3905662700060731270
+    second: mushbackidlespritesheet_14
   - first:
-      213: 4037296982465471660
-    second: mushback34spritesheet_15
-  - first:
-      213: -6444032239943358898
-    second: mushback34spritesheet_16
-  - first:
-      213: 1638748797054908296
-    second: mushback34spritesheet_17
-  - first:
-      213: -7977320486858829298
-    second: mushback34spritesheet_18
-  - first:
-      213: -8902087069104316454
-    second: mushback34spritesheet_19
-  - first:
-      213: 8341838742832174791
-    second: mushback34spritesheet_0
-  - first:
-      213: -5633107252780204764
-    second: mushback34spritesheet_1
-  - first:
-      213: 2791644509085970746
-    second: mushback34spritesheet_2
-  - first:
-      213: -5151537922704279942
-    second: mushback34spritesheet_3
-  - first:
-      213: 3513138482385153722
-    second: mushback34spritesheet_4
-  - first:
-      213: 5863007970536002901
-    second: mushback34spritesheet_5
-  - first:
-      213: -5721589465303537422
-    second: mushback34spritesheet_6
-  - first:
-      213: -1065761965116040831
-    second: mushback34spritesheet_7
-  - first:
-      213: 2093548417747821487
-    second: mushback34spritesheet_8
-  - first:
-      213: -1589732774232788580
-    second: mushback34spritesheet_9
-  - first:
-      213: -6391796662008464179
-    second: mushback34spritesheet_10
-  - first:
-      213: -3306380378111547629
-    second: mushback34spritesheet_11
-  - first:
-      213: -1529006287826450167
-    second: mushback34spritesheet_12
-  - first:
-      213: 5116408048212409789
-    second: mushback34spritesheet_13
-  - first:
-      213: -112142439503552090
-    second: mushback34spritesheet_14
-  - first:
-      213: -4097525824960517533
-    second: mushback34spritesheet_15
-  - first:
-      213: 86488022446560299
-    second: mushback34spritesheet_16
-  - first:
-      213: 7541107109103200542
-    second: mushback34spritesheet_17
-  - first:
-      213: 779132239636409287
-    second: mushback34spritesheet_18
-  - first:
-      213: -7867453532453148415
-    second: mushback34spritesheet_19
-  - first:
-      213: 6487177878915615656
-    second: mushback34spritesheet_20
+      213: -7716815001813129937
+    second: mushbackidlespritesheet_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -222,7 +147,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mushback34spritesheet_0
+      name: mushbackidlespritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -230,20 +155,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c65a10c32a24c370800000000000000
-      internalID: 8341838742832174791
+      spriteID: 4e6c435061c2e15e0800000000000000
+      internalID: -1937062316634487068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_1
+      name: mushbackidlespritesheet_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -251,20 +176,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42dfb509cce23d1b0800000000000000
-      internalID: -5633107252780204764
+      spriteID: ae46fda3cb4c17cc0800000000000000
+      internalID: -3714971904883333910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_2
+      name: mushbackidlespritesheet_2
       rect:
         serializedVersion: 2
         x: 2000
@@ -272,20 +197,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a313d37e3e9edb620800000000000000
-      internalID: 2791644509085970746
+      spriteID: 322dfc19eb51e4150800000000000000
+      internalID: 5858644073489879587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_3
+      name: mushbackidlespritesheet_3
       rect:
         serializedVersion: 2
         x: 3000
@@ -293,20 +218,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a76f146ad8f0288b0800000000000000
-      internalID: -5151537922704279942
+      spriteID: 016764afe2b955670800000000000000
+      internalID: 8526892095565624848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_4
+      name: mushbackidlespritesheet_4
       rect:
         serializedVersion: 2
         x: 4000
@@ -314,20 +239,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe625916dc21c030800000000000000
-      internalID: 3513138482385153722
+      spriteID: 89d8b35bdcdd9eb10800000000000000
+      internalID: 2011382584176250264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_5
+      name: mushbackidlespritesheet_5
       rect:
         serializedVersion: 2
         x: 5000
@@ -335,20 +260,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55515178fa69d5150800000000000000
-      internalID: 5863007970536002901
+      spriteID: 782400a8852b03af0800000000000000
+      internalID: -418638672003317113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_6
+      name: mushbackidlespritesheet_6
       rect:
         serializedVersion: 2
         x: 6000
@@ -356,20 +281,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f827f112b4d890b0800000000000000
-      internalID: -5721589465303537422
+      spriteID: d63b388a6b55315b0800000000000000
+      internalID: -5398877285287480467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_7
+      name: mushbackidlespritesheet_7
       rect:
         serializedVersion: 2
         x: 7000
@@ -377,20 +302,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 189d22ea327a531f0800000000000000
-      internalID: -1065761965116040831
+      spriteID: 818afa78a40785150800000000000000
+      internalID: 5861558380429027352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_8
+      name: mushbackidlespritesheet_8
       rect:
         serializedVersion: 2
         x: 8000
@@ -398,20 +323,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa3a0ff9137cd0d10800000000000000
-      internalID: 2093548417747821487
+      spriteID: 7334f9dc389184d10800000000000000
+      internalID: 2109964479304254263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_9
+      name: mushbackidlespritesheet_9
       rect:
         serializedVersion: 2
         x: 9000
@@ -419,20 +344,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c91fe00f67220f9e0800000000000000
-      internalID: -1589732774232788580
+      spriteID: 576a278312dd53640800000000000000
+      internalID: 5059192891171317365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_10
+      name: mushbackidlespritesheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -440,20 +365,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc35741dc6cb47a0800000000000000
-      internalID: -6391796662008464179
+      spriteID: e7b9be83883dd9a60800000000000000
+      internalID: 7682529121387912062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_11
+      name: mushbackidlespritesheet_11
       rect:
         serializedVersion: 2
         x: 1000
@@ -461,20 +386,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317e65660906d12d0800000000000000
-      internalID: -3306380378111547629
+      spriteID: 3612cf37fa2f8c560800000000000000
+      internalID: 7334378828551954787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_12
+      name: mushbackidlespritesheet_12
       rect:
         serializedVersion: 2
         x: 2000
@@ -482,20 +407,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90904cad1e0e7cae0800000000000000
-      internalID: -1529006287826450167
+      spriteID: b5b3b698243f880b0800000000000000
+      internalID: -5726059459102688421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_13
+      name: mushbackidlespritesheet_13
       rect:
         serializedVersion: 2
         x: 3000
@@ -503,20 +428,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd76af0302210740800000000000000
-      internalID: 5116408048212409789
+      spriteID: e43c200d54bf78f90800000000000000
+      internalID: -6951311222561914034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_14
+      name: mushbackidlespritesheet_14
       rect:
         serializedVersion: 2
         x: 4000
@@ -524,20 +449,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a12521ab07917ef0800000000000000
-      internalID: -112142439503552090
+      spriteID: 687ec995883b33630800000000000000
+      internalID: 3905662700060731270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushback34spritesheet_15
+      name: mushbackidlespritesheet_15
       rect:
         serializedVersion: 2
         x: 5000
@@ -545,98 +470,14 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a2d39c8f9a227c0800000000000000
-      internalID: -4097525824960517533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mushback34spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 9
-      pivot: {x: 0.43, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b24d04fe564433100800000000000000
-      internalID: 86488022446560299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mushback34spritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 7000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 9
-      pivot: {x: 0.43, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e19e44316f467a860800000000000000
-      internalID: 7541107109103200542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mushback34spritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 8000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 9
-      pivot: {x: 0.43, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cb2598d4a800da00800000000000000
-      internalID: 779132239636409287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mushback34spritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 9000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 9
-      pivot: {x: 0.43, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 109ec3f12b031d290800000000000000
-      internalID: -7867453532453148415
+      spriteID: f25e58b24ad58e490800000000000000
+      internalID: -7716815001813129937
       vertices: []
       indices: 
       edges: []
