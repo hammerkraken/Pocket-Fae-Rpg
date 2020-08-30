@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: 3550abc1c539db944b5810b24f693959
+guid: 0cc1f3d979da1074a8cbc4ea54e8ad5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -624249162763205334
-    second: mushsidespritesheet-fix_0
+      213: 966791343967773624
+    second: mushsidespritesheet_0
   - first:
-      213: 2281897607893313902
-    second: mushsidespritesheet-fix_1
+      213: -7626626129676774665
+    second: mushsidespritesheet_1
   - first:
-      213: 7252879853246058035
-    second: mushsidespritesheet-fix_2
+      213: -4980670896260011886
+    second: mushsidespritesheet_2
   - first:
-      213: 3578636914706499055
-    second: mushsidespritesheet-fix_3
+      213: 8761796879834041430
+    second: mushsidespritesheet_3
   - first:
-      213: -981257361501399991
-    second: mushsidespritesheet-fix_4
+      213: 7223958414136443934
+    second: mushsidespritesheet_4
   - first:
-      213: -3544583168340051000
-    second: mushsidespritesheet-fix_5
+      213: 1110467720454427597
+    second: mushsidespritesheet_5
   - first:
-      213: -2553888368931961803
-    second: mushsidespritesheet-fix_6
+      213: 547179531973364237
+    second: mushsidespritesheet_6
   - first:
-      213: 166324930832798439
-    second: mushsidespritesheet-fix_7
+      213: -2154455865991497380
+    second: mushsidespritesheet_7
   - first:
-      213: -3794905563440956318
-    second: mushsidespritesheet-fix_8
+      213: -7711047398540600678
+    second: mushsidespritesheet_8
   - first:
-      213: -8632162507780831527
-    second: mushsidespritesheet-fix_9
+      213: 8629145761909235824
+    second: mushsidespritesheet_9
   - first:
-      213: -3478294360848267097
-    second: mushsidespritesheet-fix_10
+      213: -2173419712159700374
+    second: mushsidespritesheet_10
   - first:
-      213: -4981880487335145613
-    second: mushsidespritesheet-fix_11
+      213: 198361847471530069
+    second: mushsidespritesheet_11
   - first:
-      213: 768997921703695149
-    second: mushsidespritesheet-fix_12
+      213: -270362323517160541
+    second: mushsidespritesheet_12
   - first:
-      213: 2850836831881710235
-    second: mushsidespritesheet-fix_13
+      213: -5361422104622225850
+    second: mushsidespritesheet_13
   - first:
-      213: 8049988019554528242
-    second: mushsidespritesheet-fix_14
+      213: -7100818374687087467
+    second: mushsidespritesheet_14
   - first:
-      213: -4537602595453709760
-    second: mushsidespritesheet-fix_15
+      213: 3152244244927548710
+    second: mushsidespritesheet_15
   - first:
-      213: -6903983216883878336
-    second: mushsidespritesheet-fix_16
+      213: 5465282189577729604
+    second: mushsidespritesheet_16
   - first:
-      213: 7573933951151405450
-    second: mushsidespritesheet-fix_17
+      213: -3862042418314618507
+    second: mushsidespritesheet_17
   - first:
-      213: 2991711574854504452
-    second: mushsidespritesheet-fix_18
+      213: -6387391568303347018
+    second: mushsidespritesheet_18
   - first:
-      213: 5391088313432929615
-    second: mushsidespritesheet-fix_19
+      213: -7580979008571722465
+    second: mushsidespritesheet_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -159,7 +159,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_0
+      name: mushsidespritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -167,20 +167,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a250a22a1b83657f0800000000000000
-      internalID: -624249162763205334
+      spriteID: 8b32f15ea9bba6d00800000000000000
+      internalID: 966791343967773624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_1
+      name: mushsidespritesheet_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -188,20 +188,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e696b4cc8cdeaaf10800000000000000
-      internalID: 2281897607893313902
+      spriteID: 7f257e151f7c82690800000000000000
+      internalID: -7626626129676774665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_2
+      name: mushsidespritesheet_2
       rect:
         serializedVersion: 2
         x: 2000
@@ -209,20 +209,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e81539cc767a460800000000000000
-      internalID: 7252879853246058035
+      spriteID: 298ab45653a11eab0800000000000000
+      internalID: -4980670896260011886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_3
+      name: mushsidespritesheet_3
       rect:
         serializedVersion: 2
         x: 3000
@@ -230,20 +230,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe54e21405fd9a130800000000000000
-      internalID: 3578636914706499055
+      spriteID: 65c42a817d7289970800000000000000
+      internalID: 8761796879834041430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_4
+      name: mushsidespritesheet_4
       rect:
         serializedVersion: 2
         x: 4000
@@ -251,20 +251,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 944d87ee0afd162f0800000000000000
-      internalID: -981257361501399991
+      spriteID: e140cca47e7a04460800000000000000
+      internalID: 7223958414136443934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_5
+      name: mushsidespritesheet_5
       rect:
         serializedVersion: 2
         x: 5000
@@ -272,20 +272,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cb334e636c1fcec0800000000000000
-      internalID: -3544583168340051000
+      spriteID: dc3593c128c296f00800000000000000
+      internalID: 1110467720454427597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_6
+      name: mushsidespritesheet_6
       rect:
         serializedVersion: 2
         x: 6000
@@ -293,20 +293,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5340fcd3f04ce8cd0800000000000000
-      internalID: -2553888368931961803
+      spriteID: d0a03af92e8f79700800000000000000
+      internalID: 547179531973364237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_7
+      name: mushsidespritesheet_7
       rect:
         serializedVersion: 2
         x: 7000
@@ -314,20 +314,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e29493b4a7ee4200800000000000000
-      internalID: 166324930832798439
+      spriteID: c59f15ffdc5d912e0800000000000000
+      internalID: -2154455865991497380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_8
+      name: mushsidespritesheet_8
       rect:
         serializedVersion: 2
         x: 8000
@@ -335,20 +335,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26cb2fe0f79c55bc0800000000000000
-      internalID: -3794905563440956318
+      spriteID: a9a99c3fe3bdcf490800000000000000
+      internalID: -7711047398540600678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_9
+      name: mushsidespritesheet_9
       rect:
         serializedVersion: 2
         x: 9000
@@ -356,20 +356,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d647403fe5643880800000000000000
-      internalID: -8632162507780831527
+      spriteID: 070eaade952e0c770800000000000000
+      internalID: 8629145761909235824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_10
+      name: mushsidespritesheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -377,20 +377,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a8056525bd9abfc0800000000000000
-      internalID: -3478294360848267097
+      spriteID: a6aa3ec794676d1e0800000000000000
+      internalID: -2173419712159700374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_11
+      name: mushsidespritesheet_11
       rect:
         serializedVersion: 2
         x: 1000
@@ -398,20 +398,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f40f6871eccdab0800000000000000
-      internalID: -4981880487335145613
+      spriteID: 550e78f9c09b0c200800000000000000
+      internalID: 198361847471530069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_12
+      name: mushsidespritesheet_12
       rect:
         serializedVersion: 2
         x: 2000
@@ -419,20 +419,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23992419870caa00800000000000000
-      internalID: 768997921703695149
+      spriteID: 3a34c1236ea7f3cf0800000000000000
+      internalID: -270362323517160541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_13
+      name: mushsidespritesheet_13
       rect:
         serializedVersion: 2
         x: 3000
@@ -440,20 +440,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9ac8e48ef4309720800000000000000
-      internalID: 2850836831881710235
+      spriteID: 646a01b70076895b0800000000000000
+      internalID: -5361422104622225850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_14
+      name: mushsidespritesheet_14
       rect:
         serializedVersion: 2
         x: 4000
@@ -461,20 +461,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fba2bff37d47bf60800000000000000
-      internalID: 8049988019554528242
+      spriteID: 594a53a5f43d47d90800000000000000
+      internalID: -7100818374687087467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_15
+      name: mushsidespritesheet_15
       rect:
         serializedVersion: 2
         x: 5000
@@ -482,20 +482,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 042571e0b723701c0800000000000000
-      internalID: -4537602595453709760
+      spriteID: 62d0d2080750fbb20800000000000000
+      internalID: 3152244244927548710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_16
+      name: mushsidespritesheet_16
       rect:
         serializedVersion: 2
         x: 6000
@@ -503,20 +503,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 046b066d7df1030a0800000000000000
-      internalID: -6903983216883878336
+      spriteID: 446bc03f13598db40800000000000000
+      internalID: 5465282189577729604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_17
+      name: mushsidespritesheet_17
       rect:
         serializedVersion: 2
         x: 7000
@@ -524,20 +524,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8976a6dcc40c1960800000000000000
-      internalID: 7573933951151405450
+      spriteID: 579dddce1e4476ac0800000000000000
+      internalID: -3862042418314618507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_18
+      name: mushsidespritesheet_18
       rect:
         serializedVersion: 2
         x: 8000
@@ -545,20 +545,20 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40090a993d1b48920800000000000000
-      internalID: 2991711574854504452
+      spriteID: 6ba24f1e53d6b57a0800000000000000
+      internalID: -6387391568303347018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushsidespritesheet-fix_19
+      name: mushsidespritesheet_19
       rect:
         serializedVersion: 2
         x: 9000
@@ -566,14 +566,14 @@ TextureImporter:
         width: 1000
         height: 1000
       alignment: 9
-      pivot: {x: 0.43, y: 0.13}
+      pivot: {x: 0.5, y: 0.13}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45fde2024ef0da40800000000000000
-      internalID: 5391088313432929615
+      spriteID: f15b368e1c3fac690800000000000000
+      internalID: -7580979008571722465
       vertices: []
       indices: 
       edges: []

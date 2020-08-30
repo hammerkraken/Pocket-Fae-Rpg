@@ -50,6 +50,54 @@ TextureImporter:
   - first:
       213: -9086732332094409819
     second: mushsideidlespritesheet_15
+  - first:
+      213: -702085319376097455
+    second: mushsideidlespritesheet_0
+  - first:
+      213: -2840369073658213540
+    second: mushsideidlespritesheet_1
+  - first:
+      213: -1798348039404986912
+    second: mushsideidlespritesheet_2
+  - first:
+      213: 8980552074523533226
+    second: mushsideidlespritesheet_3
+  - first:
+      213: 7652667801281745578
+    second: mushsideidlespritesheet_4
+  - first:
+      213: 3739380478955058127
+    second: mushsideidlespritesheet_5
+  - first:
+      213: -8965160944812760810
+    second: mushsideidlespritesheet_6
+  - first:
+      213: -8130737328162340900
+    second: mushsideidlespritesheet_7
+  - first:
+      213: 7549873706944417408
+    second: mushsideidlespritesheet_8
+  - first:
+      213: 1943759674686159197
+    second: mushsideidlespritesheet_9
+  - first:
+      213: 7750857937985352844
+    second: mushsideidlespritesheet_10
+  - first:
+      213: -5882767196597032199
+    second: mushsideidlespritesheet_11
+  - first:
+      213: -2235362083796593639
+    second: mushsideidlespritesheet_12
+  - first:
+      213: -4387345687643726816
+    second: mushsideidlespritesheet_13
+  - first:
+      213: -3049235835387602601
+    second: mushsideidlespritesheet_14
+  - first:
+      213: 6442411369982104648
+    second: mushsideidlespritesheet_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
