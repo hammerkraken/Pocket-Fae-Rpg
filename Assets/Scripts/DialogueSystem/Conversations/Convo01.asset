@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2c0d8dbf010a342acc1f8c4e1707cc, type: 3}
+  m_Name: Convo01
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 904743ec0c3285c40a3b1dd818064da1, type: 2}
+    dialogue: Good Morning. Today is a brand new day! It is best you consider all
+      your options.
+  - speaker: {fileID: 11400000, guid: 886ab75618ac68a49a421d8c788fb5e4, type: 2}
+    dialogue: Thank you Joe, I am happy to do so!
+  - speaker: {fileID: 11400000, guid: 904743ec0c3285c40a3b1dd818064da1, type: 2}
+    dialogue: Enjoy your day!
